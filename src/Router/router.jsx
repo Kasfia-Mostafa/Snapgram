@@ -8,7 +8,7 @@ import RootLayout from "../root/RootLayout";
 const router = createBrowserRouter([
   // public routes
   {
-    path: "/",
+    path: "/AuthLayout",
     element: <AuthLayout></AuthLayout>,
     children: [
       {
